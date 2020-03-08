@@ -1,0 +1,63 @@
+{
+	"api": {
+		"geobytes": {
+			"address": "http://getnearbycities.geobytes.com",
+			"near_by_cities": "/GetNearbyCities?callback="
+		},
+
+		"airbnb": {
+			"address": "https://www.airbnb.com.au",
+			"key": "d306zoyjsyarp7ifhu67rjxn52tv0t20",
+			"search": "/api/v2/explore_tabs",
+			"refinement_path": "/homes",
+			"timetable": "/api/v2/homes_pdp_availability_calendar",
+			"pricing": "/api/v2/pdp_listing_booking_details"
+		}
+	},
+
+	"airbnb_currency": {
+		"AUD": "Australian Dollars",
+		"BRL": "Brazilian Reais",
+		"BGN": "Bulgarian Leva",
+		"CAD": "Canadian Dollar",
+		"CLP": "Chilean Pesos",
+		"CNY": "Chinese Yuan",
+		"COP": "Columbian Pesos",
+		"CRC": "Colon",
+		"HRK": "Croatian Kuna",
+		"CZK": "Czech Koruny",
+		"DKK": "Danish Kroner",
+		"AED": "United Arab Emirates Dirham",
+		"EUR": "Euro",
+		"HKD": "Hong Kong Dollars",
+		"HUF": "Forint",
+		"INR": "Indian Rupee",
+		"ILS": "New Shekels",
+		"JPY": "Yen",
+		"MYR": "Ringgits",
+		"MXN": "Mexican Pesos",
+		"MAD": "Moroccan Dirham",
+		"TWD": "Taiwan Dollars",
+		"NZD": "New Zealand Dollars",
+		"NOK": "Krone",
+		"PEN": "Nuevos Soles",
+		"PHP": "Philippines Peso",
+		"PLN": "Zlotych",
+		"GBP": "Pounds Sterling",
+		"RON": "New Lei",
+		"RUB": "Rubles",
+		"SAR": "Saudi Riyal",
+		"SGD": "Singapore, Dollars",
+		"ZAR": "Rand",
+		"KRW": "South Korean Won",
+		"SEK": "Sweden, Kronor",
+		"CHF": "Swiss Francs",
+		"THB": "Baht",
+		"TRY": "Turkish Lira",
+		"USD": "United States Dollars",
+		"UYU": "Uruguayan Pesos"
+
+	},
+
+	"maximum_concurrency": 3
+}
